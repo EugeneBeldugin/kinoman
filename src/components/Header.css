@@ -1,0 +1,35 @@
+.header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    padding: 0 20px;
+    background-color: rgb(17, 19, 20);
+    width: 100vw;
+    border-bottom: solid 1px rgb(17, 17, 17);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.336);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 40px;
+    color: rgb(245, 225, 201);
+}
+
+.logo--decorated {
+    color: rgb(235, 232, 101);
+}
+
+.log-out-btn {
+    font-size: 20px;
+    color: rgb(245, 225, 201);
+}
+
+.welcome-wrapper {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
